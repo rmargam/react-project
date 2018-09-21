@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class ReactProject {
 
     @GetMapping("/")
-    public String react(Model model){
+    public String react(Model model) {
         model.addAttribute("messege", "New User! How are you this is part of the spring model");
         model.addAttribute("name", "New User");
         return "index";
