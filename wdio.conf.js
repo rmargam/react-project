@@ -163,6 +163,11 @@ exports.config = {
      */
     before: function (capabilities, specs) {
         require('babel-register');
+        const chai = require('chai');
+
+        global.expect = chai.expect;
+        global.assert = chai.assert;
+        global.should = chai.should();
     },
     /**
      * Runs before a WebdriverIO command gets executed.

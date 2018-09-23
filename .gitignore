@@ -54,3 +54,5 @@ node/**
 /coverage/**
 logs.dir_IS_UNDEFINED/*
 
+### Cucumber automation tests ###
+/errorShots/
