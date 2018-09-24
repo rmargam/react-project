@@ -1,5 +1,4 @@
 Spring Boot + React Boilerplate project.
-====================
 ***
 
 Boilerplate project to run [Spring Boot Web](https://spring.io/projects/spring-boot), [React.js](https://reactjs.org/), [Redux](https://redux.js.org/) with the help of [react-redux](https://redux.js.org/basics/usagewithreact).  
