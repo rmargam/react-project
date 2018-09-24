@@ -1,6 +1,7 @@
 import chai from 'chai';
 import chaiWebdriver from 'chai-webdriverio';
 
+//mocha test with webdriver io.
 chai.use(chaiWebdriver(browser));
 
 describe('My React Automation Test', function () {
