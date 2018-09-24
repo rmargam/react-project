@@ -27,7 +27,15 @@ To start the server using npm
  ```
  npm run local-server
  ```
-This command should run the maven command to build the code and deploy it on an embedded tomcat container. While building the code, maven will try to install the node version for you it goes wth node 9.2.0. Maven will do and `npm install`, perform the webpack build and deploy the code to an embedded tomcat container.
+This command should run the maven command to build the code and deploy it on an embedded tomcat container. While building the code, maven will try to install the node version for you it goes wth node 9.2.0. 
+
+Maven will, 
+1. Run `npm install` to install all the dependencies in the `package.json`.
+2. Build the webpack bundles.
+3. Run the jest unit tests.
+4. Deploy the code to an embedded tomcat container.
+
+The application will be running on <http://localhost:8080>
 
 ## Running Automation Tests
 
