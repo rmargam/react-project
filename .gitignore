@@ -55,4 +55,4 @@ node/**
 logs.dir_IS_UNDEFINED/*
 
 ### Cucumber automation tests ###
-/errorShots/
+/errorShots/**
