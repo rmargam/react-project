@@ -47,5 +47,5 @@ npm run local-server
 
 - Then run:
 ```
- npm run wdio
+npm run wdio
 ```
